@@ -38,16 +38,10 @@ footer {
   padding: 80px;
 }
 
-.example-img {
-  width: 300px;
-  display: inline-block;
-}
-
-.immagini-galleria {
-  position: relative;
-  height: 100px;
-  width: 200px;
-  margin: auto;
-  display: inline;
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 12px;
 
 }
